@@ -24,8 +24,11 @@
 
 
         <div class="card1" id="card1">
-            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <!--ontouchstart="this.classList.toggle('hover');"  ------ Was removed because of JS handling in app.js-->
+            <div class="flip-container">
+
                 <div class="flipper">
+
                     <div class="front" id="card1front">
                         <!-- front content -->
                         Card 1 Front
@@ -34,7 +37,9 @@
                         <!-- back content -->
                         Card 1 Back
                     </div>
+                    
                 </div>
+
             </div>
         </div>
 
